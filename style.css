@@ -99,8 +99,25 @@ color: black;
 
 .wrapper.form-box {
     width: 100%;
-    padding: 40px;
+    padding: 20px;
 }
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: black;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-bottom-left-radius: 20px;
+   cursor: pointer;
+   z-index: 1;
+}
+
 .form-box h2{
 font-size: 2em ;
 color: black;
@@ -138,9 +155,17 @@ top: -5px;
     background: transparent;
     border: none ;
     outline: none;
+    font-size: 1em;
     color: black;
     font-weight: 600;
     padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: black;
+    line-height: 57px;
 }
 
 .remember-forgot{
@@ -192,3 +217,6 @@ top: -5px;
     font-weight: 600;
 }
 
+.login-register p a:hover{
+    text-decoration: underline;
+}
