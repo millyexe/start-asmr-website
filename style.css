@@ -87,6 +87,7 @@ color: black;
     position: relative;
     width: 400px;
     height: 440px;
+    background: transparent;
     background: rgba(205, 225, 205, 0.575);
     border: 2px solid white;
     border-radius: 20px;
@@ -95,13 +96,18 @@ color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.wrapper.form-box {
+.wrapper .form-box {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
 }
-.wrapper .icon-close{
+.wrapper.form-box .login {
+    display: none;
+}
+
+.icon-close{
     position: absolute;
     top: 0;
     right: 0;
